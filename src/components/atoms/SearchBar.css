@@ -1,0 +1,16 @@
+.search-bar-container{
+    display: flex;
+    align-items: center;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+.search-bar-container img{
+    padding-right: 6px;
+}
+
+.search-bar{
+    border: none;
+    outline: none;
+    padding: 8px;
+    background-color: transparent;
+}   

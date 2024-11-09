@@ -1,0 +1,69 @@
+.weather-card{
+    display: flex;
+    flex: 0.49;
+    flex-direction: column;
+    justify-content: space-between;
+    /* margin-right: 8px; */
+    padding: 16px;
+    border-radius: 12px;
+    /* background-color: rgb(18, 56, 56); */
+    background-image: url('../../../assets/drawables/air-quality.png');
+    background-size: 100%;
+}
+.top-component{
+    display: flex;
+    /* flex: 1; */
+    align-items: center;
+    align-self: baseline;
+}
+.top-component-img{
+    display: flex;
+    flex: 0.2;
+}
+.top-component-img-holder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    background-color: white;
+}
+.top-component-img-holder img{
+    height: 28px;
+    width: 28px;
+}
+
+.top-component-data{
+    display: flex;
+    flex: 0.9;
+    flex-direction: column;
+    margin-left: 10px;
+    /* background-color: dodgerblue; */
+}
+.top-component-data .title {
+    font-family: "OutfitMedium";
+    margin-bottom: 4px;
+}
+.top-component-data .subtitle {
+    font-family: "Outfitregular";
+}
+.middle-component{
+    display: flex;
+    /* flex: 1; */
+    flex-direction: column;
+}
+.middle-component span{
+    font-size: 14px;
+    font-family: "Outfitregular";
+}
+.middle-component-top{
+    display: flex;
+    margin-bottom: 6px;
+}
+.bottom-component{
+    display: flex;
+    /* flex: 1; */
+    flex-direction: row;
+    justify-content: space-between;
+}

@@ -1,0 +1,15 @@
+.body-bottom-container{
+    display: flex;
+    flex: 1;
+    background-color: darkgoldenrod;
+}
+.body-bottom-temperature-today{
+    display: flex;
+    flex: 0.7;
+    background-color: palegreen;
+}
+.body-bottom-temperature-tomorrow{
+    display: flex;
+    flex: 0.3;
+    background-color: darkslategrey;
+}

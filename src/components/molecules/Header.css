@@ -1,0 +1,31 @@
+.profile-container{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    background-color: aquamarine;
+}
+.profile-icon-container{
+    display: flex;
+    flex: 0.1;
+}
+.profile-icon-container img {
+    width: 50px;
+    height: 50px;
+}
+.profile-name-container{
+    display: flex;
+    flex-direction: column;
+    flex: 0.6;
+}
+.search-notification-container{
+    display: flex;
+    flex: 0.3;
+    justify-content: center;
+    align-items: center;
+    background-color: yellowgreen;
+    padding: 0 8px;
+}
+.notification-icn{
+    width: 15px;
+    height: 15px;
+}

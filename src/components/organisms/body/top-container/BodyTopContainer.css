@@ -1,0 +1,21 @@
+.body-top-container{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 6px;
+    background-color: rgb(109, 59, 53);
+}
+/* .body-weather-class{
+    display: flex;
+    flex: 1;
+    background-color: rgb(14, 61, 45);
+}
+.body-air-quality-card{
+    display: flex;
+    flex: 1;
+} */
+.body-sub-container{
+    display: flex;
+    flex-direction: row;
+}
